@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      blog.fecat.me
+      欢迎访问fecat233的博客
     </div>
   );
 }
