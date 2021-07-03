@@ -1,0 +1,9 @@
+.postcard {
+	background-color: #FFFFFF;
+	width: 500px;
+}
+
+.postcard img {
+	width: 500px;
+	height: 200px;
+}

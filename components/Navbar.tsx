@@ -3,6 +3,7 @@ function Navbar() {
 	return (
 		<nav className="navbar navbar-expand">
 			<a className="navbar-brand" href="https://blog.fecat.me">
+			  <img src="/images/fecat233.png" alt="logo" width="30" height="30"/>
 			  Fecat233
 			</a>
 			<div id="nosocial-nav" className="collapse navbar-collapse">
