@@ -1,0 +1,18 @@
+#footer {
+	background-color: #FFFFFF;
+	padding: 10px;
+	text-align: center;
+}
+
+#footer .navbar-nav{
+	flex-direction: row;
+	justify-content: center;
+}
+
+#footer .navbar-nav li {
+	padding-right: 10px;
+}
+
+#footer a {
+	color: black;
+}

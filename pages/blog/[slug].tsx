@@ -14,7 +14,7 @@ function PostPage({ post }) {
 					<img src={post.frontmatter.img} alt="cover image"/>
 				}
 				<div className="card-body">
-					<h5 className="card-title">{post.frontmatter.title}</h5>
+					<h3 className="card-title">{post.frontmatter.title}</h3>
 					<div dangerouslySetInnerHTML={{__html:marked(post.content)}} id="content"></div>
 				</div>
 		    </div>

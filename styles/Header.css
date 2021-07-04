@@ -1,3 +1,11 @@
 .header {
 	background-color: #FFFFFF;
 }
+
+.header img {
+	border-radius: 50%;
+}
+
+.header a {
+	color:rgb(65, 61, 61);
+}

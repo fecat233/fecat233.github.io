@@ -4,11 +4,13 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import '../styles/global.css'
 import Header from '../components/Header'
 import Author from '../components/Author'
-import 'highlight.js/styles/default.css'
+import Footer from '../components/Footer'
+import 'highlight.js/styles/base16/windows-10-light.css'
 import '../styles/Header.css'
 import '../styles/Post.css'
 import '../styles/PostPage.css'
 import '../styles/Author.css'
+import '../styles/Footer.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -28,7 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <div className="col-1"></div>
         </div>
         <div className="row">
-          fotter
+          <Footer />
         </div>
       </div>
     </>
