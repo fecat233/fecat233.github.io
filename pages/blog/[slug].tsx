@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import marked from 'marked'
 import hljs from 'highlight.js'
 //博客详情页面
-function PostPage({ post }) {
+function PostPage({ post }: { post: any }) {
 
 	return (
 		<main className="container-fluid">
@@ -38,7 +38,7 @@ export async function getStaticPaths() {
 	}
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: { params: any }) {
 	const file = fs.readFileSync(path.join('posts', `${params.slug}.md`))
 	const {data: frontmatter, content} = matter(file)
 	return {

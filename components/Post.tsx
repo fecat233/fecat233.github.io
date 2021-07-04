@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-function Post({post}) {
+function Post({ post }: {post: any}) {
 
 	return (
 		<section className="postcard">
