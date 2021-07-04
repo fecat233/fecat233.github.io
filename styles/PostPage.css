@@ -1,0 +1,25 @@
+#blogcard {
+	background-color: #FFFFFF;
+	width: 100%;
+	margin: 20px;
+	border: none;
+}
+
+#blogcard img {
+	height: 400px;
+}
+
+.card-title {
+	text-align: center;
+}
+
+#blogcard p {
+	line-height: 30px;
+}
+
+#blogcard pre {
+
+}
+
+#blogcard code {
+}
