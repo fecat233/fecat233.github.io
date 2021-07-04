@@ -1,4 +1,5 @@
 import type { AppProps } from 'next/app'
+import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import '../styles/global.css'
@@ -15,6 +16,9 @@ import '../styles/Footer.css'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <title>fecat233的博客</title>
+      </Head>
       <div className="container-fluid">
         <div className="row">
           <Header />
