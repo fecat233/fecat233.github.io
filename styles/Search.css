@@ -1,0 +1,28 @@
+#search ul{
+	position:absolute;
+	z-index: 9999;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	width: 200px;
+}
+
+#search ul li {
+	list-style-type: none;
+	padding: 5px;
+	border: 1px solid #8b8b8b;
+	border-radius: 10px;
+}
+
+#search ul li a {
+	text-decoration: none;
+}
+
+#searchbox {
+	border: 1px solid #8b8b8b;
+	border-radius: 10px;
+	outline: none;
+	padding-right: .5rem;
+    padding-left: .5rem;
+	width: 200px;
+}

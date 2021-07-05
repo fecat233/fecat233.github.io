@@ -1,6 +1,6 @@
 ---
-title: JavaScript特性2
-description: JavaScript的新特性有哪些呢？本篇文章为你揭晓2
+title: CSS3特性2CSS3特性2CSS3特性2CSS3特性2CSS3特性2
+description: CSS3的新特性有哪些呢？本篇文章为你揭晓2
 img: /images/post/js.jpg
 ---
 ## 解构赋值

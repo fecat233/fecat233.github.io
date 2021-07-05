@@ -1,3 +1,4 @@
+import Search from './Search'
 
 function Navbar() {
 	return (
@@ -36,8 +37,7 @@ function Navbar() {
 				</ul>
 			</div>
 			<div>
-				<input className="" type="search" placeholder="搜索文章吧" aria-label="Search" />
-				<button className="btn btn-primary">搜索</button>
+				<Search placeholder="搜点什么呢？"/>
             </div>
 		</nav>
 	)

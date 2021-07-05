@@ -12,6 +12,7 @@ import '../styles/Post.css'
 import '../styles/PostPage.css'
 import '../styles/Author.css'
 import '../styles/Footer.css'
+import '../styles/Search.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
