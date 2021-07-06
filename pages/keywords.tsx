@@ -1,7 +1,19 @@
 import { getPostsMeta } from '../utils/utils'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 function Keywords({keys}: {keys: any}) {
+	const router = useRouter()
+
+	function onClick(event: Event) {
+		const key = event.currentTarget?.id
+		if(key) {
+		  router.push({
+				pathname: '/[key]',
+				query: {key: key}
+			})
+		}
+	}
 	return (
 		<>
 		  <div id="keys">
@@ -10,8 +22,8 @@ function Keywords({keys}: {keys: any}) {
 				{
 					keys.map((key: any, index: number) => {
 						return <li key={index}>
-							<Link href={`/api/keywords?tag=${key[0]}`}>
-								<a>{`${key[0]}:[${key[1]}]`}</a>
+							<Link href="#">
+								<a onClick={onClick} id={key[0]} value={key[0]}>{`${key[0]}:[${key[1]}]`}</a>
 							</Link>
 						</li>
 					})
