@@ -9,7 +9,7 @@ function Keywords({keys}: {keys: any}) {
 		const key = event.currentTarget?.id
 		if(key) {
 		  router.push({
-				pathname: '/[key]',
+				pathname: '/keypost',
 				query: {key: key}
 			})
 		}

@@ -3,7 +3,7 @@ title: JavaScript特性JavaScript特性JavaScript特性JavaScript特性
 description: JavaScript的新特性有哪些呢？本篇文章为你揭晓
 img: /images/post/js.jpg
 keys: JavaScript CSS
-series: JavaScript
+series: JavaScript基础教程
 ---
 ## 解构赋值
 解构赋值解构赋值解构赋值解构赋值解构赋值解构赋值解构赋值解构赋值解构赋值解构赋值解构赋值

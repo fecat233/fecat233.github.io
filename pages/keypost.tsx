@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 import PostList from '../components/PostList'
 /**
  * 渲染按关键字和系列查询到的post
