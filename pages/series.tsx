@@ -23,7 +23,7 @@ function Series({serieses}: {serieses: []}) {
 						serieses.map((series, idx) => {
 							return <li key={idx}>
 								<Link href="#">
-									<a name={series[0]} onClick={onClick}>{`${series[0]}:[${series[1]}]`}</a>
+									<a name={series[0]} onClick={onClick}>{`${series[0]}:${series[1]}篇文章`}</a>
 								</Link>
 							</li>
 						})

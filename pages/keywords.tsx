@@ -16,14 +16,14 @@ function Keywords({keys}: {keys: any}) {
 	}
 	return (
 		<>
-		  <div id="keys">
+		  <div id="keywords">
 			  <h5>关键词</h5>
 			  <ul>
 				{
 					keys.map((key: any, index: number) => {
 						return <li key={index}>
 							<Link href="#">
-								<a onClick={onClick} id={key[0]} value={key[0]}>{`${key[0]}:[${key[1]}]`}</a>
+								<a onClick={onClick} id={key[0]} value={key[0]}>{`${key[0]}:${key[1]}篇文章`}</a>
 							</Link>
 						</li>
 					})
