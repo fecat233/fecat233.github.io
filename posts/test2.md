@@ -1,8 +1,6 @@
 ---
 title: CSS3特性2CSS3特性2CSS3特性2CSS3特性2CSS3特性2
 description: CSS3的新特性有哪些呢？本篇文章为你揭晓2
-keys: JavaScript CSS CSS3
-series: JavaScript基础教程
 img: /images/post/js.jpg
 ---
 ## 解构赋值
