@@ -1,3 +1,3 @@
-import { posts } from '../cache/cache.mjs'
+const tags = "JavaScript CSS CSS3".toLocaleLowerCase()
 
-console.log(posts);
+console.log(tags.includes('css3'));

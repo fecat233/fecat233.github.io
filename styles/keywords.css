@@ -1,0 +1,22 @@
+#keywords {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#keywords ul li{
+	list-style-type: none;
+	padding:5px;
+}
+
+#keywords h5 {
+	padding-top: 20px;
+}
+
+#keywords a {
+	text-decoration: none;
+	color: rgb(70, 68, 68);
+}
