@@ -1,21 +1,12 @@
-import Post from '../components/Post'
+import PostList from '../components/PostList'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
 export default function Home({ posts }: { posts: any }) {
-  const postcard = posts.map((post: any, index: number) => {
-    return <Post key={index} post={post}/>
-  })
   return (
     <>
-      <main className="container-fluid">
-        <div>
-          <ul>
-            {postcard}
-          </ul>
-        </div>
-      </main>
+      <PostList posts={posts}/>
     </>
   )
 }

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-function Search(props) {
+function SearchBox(props) {
 	const [query, setQuery] = useState('')
 	const [posts, setPosts] = useState([])
 	const [active, setActive] = useState(false)
@@ -51,4 +51,4 @@ function Search(props) {
 	)
 }
 
-export default Search;
+export default SearchBox;

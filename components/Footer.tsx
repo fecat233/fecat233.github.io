@@ -11,7 +11,7 @@ function Footer() {
 						<a className="nav-link" href="https://github.com/twitter"><i className="bi bi-twitter"></i></a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#"><i className="bi bi-youtube"></i></a>
+						<a className="nav-link" href="https://www.youtube.com/channel/UCAwcva4EMMjcsXvOvJAcriQ"><i className="bi bi-youtube"></i></a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="mailto:goleer.zhangli@outlook.com"><i className="bi bi-envelope"></i></a>

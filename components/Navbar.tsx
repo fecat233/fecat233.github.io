@@ -1,4 +1,4 @@
-import Search from './Search'
+import SearchBox from './SearchBox'
 
 function Navbar() {
 	return (
@@ -13,10 +13,10 @@ function Navbar() {
 						<a className="nav-link" href="/">主页</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="/tags">标签</a>
+						<a className="nav-link" href="/keywords">关键词</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="/categories">分类</a>
+						<a className="nav-link" href="/series">系列</a>
 					</li>
 				</ul>
 			</div>
@@ -29,7 +29,7 @@ function Navbar() {
 						<a className="nav-link" href="https://github.com/twitter"><i className="bi bi-twitter"></i></a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#"><i className="bi bi-youtube"></i></a>
+						<a className="nav-link" href="https://www.youtube.com/channel/UCAwcva4EMMjcsXvOvJAcriQ"><i className="bi bi-youtube"></i></a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="mailto:goleer.zhangli@outlook.com"><i className="bi bi-envelope"></i></a>
@@ -37,7 +37,7 @@ function Navbar() {
 				</ul>
 			</div>
 			<div>
-				<Search placeholder="搜点什么呢？"/>
+				<SearchBox placeholder="搜点什么呢?"/>
             </div>
 		</nav>
 	)
